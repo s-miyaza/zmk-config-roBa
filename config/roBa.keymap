@@ -54,9 +54,14 @@
             key-positions = <24 25>;
         };
 
-        bs {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <40 41>;
+        Int1 {
+            bindings = <&kp INT_RO>;
+            key-positions = <29 30>;
+        };
+
+        kana {
+            bindings = <&kp INT_KANA>;
+            key-positions = <17 18>;
         };
     };
 
