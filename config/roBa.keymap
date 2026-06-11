@@ -54,13 +54,13 @@
             key-positions = <24 25>;
         };
 
-        Int1 {
-            bindings = <&kp INT_RO>;
+        Lang1 {
+            bindings = <&kp LS(LANGUAGE_1)>;
             key-positions = <29 30>;
         };
 
-        kana {
-            bindings = <&kp INT_KANA>;
+        Lang2 {
+            bindings = <&kp LS(LANGUAGE_2)>;
             key-positions = <17 18>;
         };
     };
@@ -108,10 +108,10 @@
 
         NUM {
             bindings = <
-&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                           &kp NUMBER_6  &kp N7          &kp N8               &kp N9     &kp N0
-&kp TAB         &trans        &trans        &trans        &trans  &kp TILDE             &kp GRAVE          &kp LEFT      &kp DOWN_ARROW  &kp UP_ARROW         &kp RIGHT  &trans
-&kp LEFT_SHIFT  &trans        &trans        &trans        &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp INT1      &kp INT2        &kp INTERNATIONAL_3  &trans     &kp BACKSLASH
-&trans          &trans        &trans        &trans        &trans  &trans                &kp BACKSPACE      &trans                                                        &kp DEL
+&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                           &kp NUMBER_6    &kp N7          &kp N8            &kp N9     &kp N0
+&kp TAB         &trans        &trans        &trans        &trans  &kp TILDE             &kp GRAVE          &kp LEFT        &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT  &trans
+&kp LEFT_SHIFT  &trans        &trans        &trans        &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp LANGUAGE_1  &kp LANGUAGE_2  &kp INT_MUHENKAN  &trans     &kp BACKSLASH
+&trans          &trans        &trans        &trans        &trans  &trans                &kp BACKSPACE      &trans                                                       &kp DEL
             >;
         };
 
